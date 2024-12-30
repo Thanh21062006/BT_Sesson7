@@ -8,7 +8,7 @@ int main() {
 	int arrayInt[a];
 	for(int i = 0;i < a;i++){
 		printf("Moi ban nhap vao phan tu arrayInt[%d]: ",i);
-		scanf("%p", &arrayInt[i]);
+		scanf("%d", &arrayInt[i]);
 	}
 	return 0;
 }
